@@ -1,0 +1,43 @@
+{
+	"version": 1,
+	"changelists": [
+		{
+			"guid": "00000000000000000000000000000000",
+			"description": "Default Uncontrolled Changelist",
+			"files": [
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Levels/MainLevel.umap",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sEnemy_strip7.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sEnemyDead.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/crosshair007.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sGun.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sBullet.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sMap.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sPlayerIdle_strip4.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sPlayerRun_strip7.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sBg.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/background.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Textures/sWall.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sounds/aBullet.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sounds/aDeath.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/sWall_Sprite.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/sMap_Sprite.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/background_Sprite.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Arena/background_Sprite.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Arena/sMap_Sprite.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Arena/sWall_Sprite.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Blueprints/BP_Arena.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Idle/sPlayerIdle_strip4_Sprite_0.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Idle/sPlayerIdle_strip4_Sprite_1.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Idle/sPlayerIdle_strip4_Sprite_2.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Idle/sPlayerIdle_strip4_Sprite_3.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_0.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_1.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_2.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_3.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_4.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_5.uasset",
+				"C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Content/Assets/Sprites/Player/Run/sPlayerRun_strip7_Sprite_6.uasset"
+			]
+		}
+	]
+}

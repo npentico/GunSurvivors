@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-GunSurvivors.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\GunSurvivorsEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\GunSurvivors.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\Default.rc2.res"
+/OUT:"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\UnrealEditor-GunSurvivors.lib"

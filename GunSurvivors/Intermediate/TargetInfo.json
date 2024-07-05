@@ -1,0 +1,14 @@
+{
+	"Targets": [
+		{
+			"Name": "GunSurvivors",
+			"Path": "..\\Source\\GunSurvivors.Target.cs",
+			"Type": "Game"
+		},
+		{
+			"Name": "GunSurvivorsEditor",
+			"Path": "..\\Source\\GunSurvivorsEditor.Target.cs",
+			"Type": "Editor"
+		}
+	]
+}

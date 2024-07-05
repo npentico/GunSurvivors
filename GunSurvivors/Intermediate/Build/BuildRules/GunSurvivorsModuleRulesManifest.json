@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\natha\\OneDrive\\Desktop\\Unreal Projects\\GunSurvivors\\GunSurvivors\\Source\\GunSurvivors\\GunSurvivors.Build.cs",
+		"C:\\Users\\natha\\OneDrive\\Desktop\\Unreal Projects\\GunSurvivors\\GunSurvivors\\Source\\GunSurvivors.Target.cs",
+		"C:\\Users\\natha\\OneDrive\\Desktop\\Unreal Projects\\GunSurvivors\\GunSurvivors\\Source\\GunSurvivorsEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}

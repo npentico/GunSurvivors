@@ -1,0 +1,14 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\source\\gunsurvivors\\gunsurvivors.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\x64\\gunsurvivorseditor\\development\\engine\\sharedpch.engine.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gunsurvivors\\definitions.gunsurvivors.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\source\\gunsurvivors\\gunsurvivors.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
