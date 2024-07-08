@@ -1,4 +1,4 @@
-#include "C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Intermediate/Build/Win64/x64/GunSurvivorsEditor/Development/Engine/SharedDefinitions.Engine.Cpp20.h"
+#include "C:/Users/natha/OneDrive/Desktop/Unreal Projects/GunSurvivors/GunSurvivors/Intermediate/Build/Win64/x64/GunSurvivorsEditor/Development/UnrealEd/SharedDefinitions.UnrealEd.Cpp20.h"
 #undef UE_IS_ENGINE_MODULE
 #undef DEPRECATED_FORGAME
 #define DEPRECATED_FORGAME DEPRECATED
@@ -22,3 +22,5 @@
 #define DEPRECATED_FORGAME DEPRECATED
 #define UE_DEPRECATED_FORGAME UE_DEPRECATED
 #define GUNSURVIVORS_API DLLEXPORT
+#define PAPER2D_API DLLIMPORT
+#define ENHANCEDINPUT_API DLLIMPORT

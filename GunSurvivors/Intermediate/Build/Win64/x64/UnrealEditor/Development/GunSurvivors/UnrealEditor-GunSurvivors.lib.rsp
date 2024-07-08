@@ -6,7 +6,16 @@
 /NAME:"UnrealEditor-GunSurvivors.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\GunSurvivorsEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\GunSurvivorsEditor\Development\UnrealEd\SharedPCH.UnrealEd.Cpp20.h.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\Bullet.gen.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\Enemy.gen.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\GunSurvivors.init.gen.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\TopdownCharacter.gen.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\TopdownGameMode.gen.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\Bullet.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\Enemy.cpp.obj"
 "C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\GunSurvivors.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\TopdownCharacter.cpp.obj"
+"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\TopdownGameMode.cpp.obj"
 "C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\Default.rc2.res"
 /OUT:"C:\Users\natha\OneDrive\Desktop\Unreal Projects\GunSurvivors\GunSurvivors\Intermediate\Build\Win64\x64\UnrealEditor\Development\GunSurvivors\UnrealEditor-GunSurvivors.lib"

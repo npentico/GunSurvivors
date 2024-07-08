@@ -1,0 +1,29 @@
+{
+    "Version": "1.2",
+    "Data": {
+        "Source": "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\unrealeditor\\inc\\gunsurvivors\\uht\\enemy.gen.cpp",
+        "ProvidedModule": "",
+        "PCH": "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\x64\\gunsurvivorseditor\\development\\unrealed\\sharedpch.unrealed.cpp20.h.pch",
+        "Includes": [
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\x64\\unrealeditor\\development\\gunsurvivors\\definitions.gunsurvivors.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\source\\gunsurvivors\\enemy.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\capsulecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\shapecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\shapecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\capsulecomponent.generated.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\paperflipbookcomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\paperflipbookcomponent.generated.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\source\\gunsurvivors\\topdowncharacter.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\2d\\paper2d\\source\\paper2d\\classes\\paperspritecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\plugins\\2d\\paper2d\\intermediate\\build\\win64\\unrealeditor\\inc\\paper2d\\uht\\paperspritecomponent.generated.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\source\\gunsurvivors\\bullet.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\components\\spherecomponent.h",
+            "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\spherecomponent.generated.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\unrealeditor\\inc\\gunsurvivors\\uht\\bullet.generated.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\unrealeditor\\inc\\gunsurvivors\\uht\\topdowncharacter.generated.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\unrealeditor\\inc\\gunsurvivors\\uht\\enemy.generated.h"
+        ],
+        "ImportedModules": [],
+        "ImportedHeaderUnits": []
+    }
+}
