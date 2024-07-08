@@ -10,9 +10,12 @@
 #include "PaperSpriteComponent.h"
 #include "Engine/TimerHandle.h"
 #include "Bullet.h"
+#include "Sound/SoundBase.h"
+
 
 #include "TopdownCharacter.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FPlayerDiedDelegate);
 UCLASS()
 class GUNSURVIVORS_API ATopdownCharacter : public APawn
 {
@@ -48,9 +51,8 @@ public:
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	UPaperSpriteComponent *GunSprite;
 
-	UPROPERTY(EditDefaultsOnly,BlueprintReadOnly,Category = "PLAYER")
+	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly, Category = "PLAYER")
 	TSubclassOf<ABullet> BulletActorToSpawn;
-
 
 	UFUNCTION(BlueprintCallable)
 	void MoveTriggered(FVector2D InputValue);
@@ -84,15 +86,23 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "PLAYER")
 	FVector2D VerticalLimit;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "PLAYER")
+	USoundBase* ShootSound;
+	
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "PLAYER")
+	USoundBase* DeathSound;
+
 	bool IsInMapBoundsHorizontal(float XPos);
 	bool IsInMapBoundsVertical(float ZPos);
 
-	APlayerController* PlayerController;
+	APlayerController *PlayerController;
 
-	UPROPERTY(VisibleAnywhere,BlueprintReadWrite)
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	bool bCanShoot = true;
 
-	
+	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
+	bool bIsAlive = true;
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "PLAYER")
 	float ShootCooldownSeconds = 0.3f;
 
@@ -100,8 +110,8 @@ public:
 
 	void OnShootCooldownTimerTimeout();
 
+	UFUNCTION()
+	void OverlapBegin(UPrimitiveComponent *OverlappedComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool FromSweep, const FHitResult &SweepResult);
 
-
-
-
+	FPlayerDiedDelegate PlayerDiedDelegate;
 };

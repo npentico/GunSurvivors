@@ -8,8 +8,11 @@
 #include "PaperFlipbookComponent.h"
 #include "TopdownCharacter.h"
 #include "Engine/TimerHandle.h"
+#include "Sound/SoundBase.h"
 
 #include "Enemy.generated.h"
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FEnemyDiedDelegate);
 
 UCLASS()
 class GUNSURVIVORS_API AEnemy : public AActor
@@ -47,10 +50,12 @@ public:
 	float MovementSpeed = 50.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	UPaperFlipbook* DeadFlipbookAsset;
+	UPaperFlipbook *DeadFlipbookAsset;
 
 	FTimerHandle DeathTimer;
 
+	UPROPERTY(EditAnywhere, BlueprintReadOnly)
+	USoundBase *DeathSound;
 
 	UPROPERTY(VisibleAnywhere, BlueprintReadWrite)
 	float StopDistance = 20.0f;
@@ -58,4 +63,6 @@ public:
 	void Die();
 
 	void OnDestroyTimerTimeout();
+
+	FEnemyDiedDelegate EnemyDiedDelegate;
 };

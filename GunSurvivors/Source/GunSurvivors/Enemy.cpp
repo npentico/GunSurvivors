@@ -20,15 +20,6 @@ AEnemy::AEnemy()
 void AEnemy::BeginPlay()
 {
 	Super::BeginPlay();
-	if (!Player)
-	{
-		AActor *PlayerAct = UGameplayStatics::GetActorOfClass(GetWorld(), ATopdownCharacter::StaticClass());
-		if (PlayerAct)
-		{
-			Player = Cast<ATopdownCharacter>(PlayerAct);
-			bCanFollow = true;
-		}
-	}
 }
 
 // Called every frame
@@ -65,19 +56,21 @@ void AEnemy::Tick(float DeltaTime)
 			{
 				FlipbookComp->SetWorldScale3D(FVector(-1, 1, 1));
 			}
-				}
+		}
 	}
 }
 
 void AEnemy::Die()
 {
-	if(!bIsAlive)return;
-	bIsAlive =false;
+	if (!bIsAlive)
+		return;
+	bIsAlive = false;
 	bCanFollow = false;
 	FlipbookComp->SetFlipbook(DeadFlipbookAsset);
 	FlipbookComp->SetTranslucentSortPriority(-4);
+	EnemyDiedDelegate.Broadcast();
 	GetWorldTimerManager().SetTimer(DeathTimer, this, &AEnemy::OnDestroyTimerTimeout, 1.0f, false, 5.0f);
-
+	UGameplayStatics::PlaySound2D(GetWorld(), DeathSound);
 }
 
 void AEnemy::OnDestroyTimerTimeout()

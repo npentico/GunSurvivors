@@ -69,20 +69,18 @@ void ABullet::OnDeleteTimerTimeout()
 
 void ABullet::OverlapBegin(UPrimitiveComponent *OverlappedComponent, AActor *OtherActor, UPrimitiveComponent *OtherComp, int32 OtherBodyIndex, bool FromSweep, const FHitResult &SweepResult)
 {
-	GEngine->AddOnScreenDebugMessage(-1,10.0f,FColor::Red,TEXT("HIT"));
-	AEnemy* Enemy = Cast<AEnemy>(OtherActor);
-	if(Enemy && Enemy->bIsAlive){
-			GEngine->AddOnScreenDebugMessage(-1,10.0f,FColor::Green,TEXT("HIT ENEMY"));
-			DisableBullet();
-			Enemy->Die();
-			
-
+	AEnemy *Enemy = Cast<AEnemy>(OtherActor);
+	if (Enemy && Enemy->bIsAlive)
+	{
+		DisableBullet();
+		Enemy->Die();
 	}
 }
 
 void ABullet::DisableBullet()
 {
-	if(bIsDisabled)return;
+	if (bIsDisabled)
+		return;
 	bIsDisabled = true;
 	SphereComp->SetCollisionEnabled(ECollisionEnabled::NoCollision);
 	BulletSprite->DestroyComponent();

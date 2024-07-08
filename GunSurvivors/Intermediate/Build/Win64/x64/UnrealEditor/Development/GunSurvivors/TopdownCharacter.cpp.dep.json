@@ -31,7 +31,9 @@
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\gameplaystatics.generated.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.h",
             "c:\\program files\\epic games\\ue_5.3\\engine\\intermediate\\build\\win64\\unrealeditor\\inc\\engine\\uht\\kismetmathlibrary.generated.h",
-            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl"
+            "c:\\program files\\epic games\\ue_5.3\\engine\\source\\runtime\\engine\\classes\\kismet\\kismetmathlibrary.inl",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\source\\gunsurvivors\\enemy.h",
+            "c:\\users\\natha\\onedrive\\desktop\\unreal projects\\gunsurvivors\\gunsurvivors\\intermediate\\build\\win64\\unrealeditor\\inc\\gunsurvivors\\uht\\enemy.generated.h"
         ],
         "ImportedModules": [],
         "ImportedHeaderUnits": []
